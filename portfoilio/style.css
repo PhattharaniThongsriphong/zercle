@@ -45,8 +45,8 @@
     font-size: 14;
 }
 .containerHome {
-    border: 1px solid red;
-    height: 500px;
+    /* border: 1px solid red; */
+    height: 800px;
 }
 .bg2 {
     background-color: rgb(236, 174, 92);
@@ -84,14 +84,42 @@ i {
 }
 .containerAbout {
     /* border: 1px solid blue; */
-    height: 350px;
+    height: 200px;
+    background-color: floralwhite;
 }
-
+.containerAbout h3 {
+    /* border: 1px solid blue; */
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2rem;
+}
+.containerAbout h5 {
+    /* border: 1px solid blue; */
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
 .containerSkill {
-    /* border: 1px solid green; */
-    height: 350px;
+    border: 1px solid green;
+    height: 400px;
+    display: flex;
+    justify-content: center;
 }
-
+.containerSkill .box {
+    width: 20%;
+}
+.bgbox1 {
+    background-color: rgb(171, 223, 184);
+}
+.bgbox2 {
+    background-color: rgb(236, 168, 168);
+}
+.bgbox3 {
+    background-color: lightblue;
+}
 .containerCon {
     /* border: 1px solid purple; */
     height: 350px;
